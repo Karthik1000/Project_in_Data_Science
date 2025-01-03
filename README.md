@@ -10,7 +10,18 @@ Phases with distinct optical properties are detectable through reflected and tra
 3. The U-Net modeling results achieved a high test accuracy of 97.13%.
    
 ### Contributed by Aiman
-### Contributed by Ruizchen
+### Contributed by Ruizhen Chen
+#### Data Preprocessing Steps
+1. In the data preprocessing phase, I established a data pipeline to clean the data and split the dataset. Finally, I experimented with three models as baseline models: Logistic Regression, Decision Tree, and K-Nearest Neighbors. Among them, the accuracy of Logistic Regression was 80.7%, which is lower than the results achieved by Yagna Karthik and Khang.
+2. The code can be found at: [GitHub Repository](https://github.com/Karthik1000/Project_in_Data_Science/blob/Final_code_submission/data_preprocessing.ipynb) with my comments and explanations.
+#### U-Net  model
+1. Yagna Karthik and I collaborated on building the U-Net model, experimenting with various epochs and accuracies, and testing it under different conditions, including varied train-validation-test data splits and batch sizes.
+2. Developed a data processing pipeline that includes image cropping, enhancement, and coordinate normalization, aligning the CSV data with the image data to ensure consistency in the input data.
+3. Implemented a generalized ‘DataGenerator’ class that supports batch data loading, data augmentation, and dynamic label generation, enhancing the efficiency of data processing and the training process.
+4. Designed a U-Net-based architecture adapted for multi-channel input and incorporated a multi-class Softmax activation function. Additionally, techniques such as dynamic learning rate adjustment were employed to prevent model overfitting. The initial model achieved an accuracy of 94.4% on the test set.
+5. The code can be found at: [GitHub Repository](https://github.com/Karthik1000/Project_in_Data_Science/blob/Final_code_submission/UNet_without_contour.ipynb) with my comments and explanations.
+#### Final report
+I contributed to the final report by writing the sections in Parts IV and V about the U-Net model, providing a detailed explanation of the U-Net architecture and the structure of its inputs and outputs. Additionally, I presented a comparison of true boundaries versus predicted boundaries (without contours) in the report. Yagna Karthik further enhanced this by adding advanced visualizations with contours.
 ### Contributed by Khang
 #### Data Preprocessing Steps
 1. I do not have much experience with data pipelines, so I did not implement the code for this part. However, I participated in group meetings and contributed ideas to this section.
