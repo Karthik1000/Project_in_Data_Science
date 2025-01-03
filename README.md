@@ -1,5 +1,14 @@
 # Project_in_Data_Science
 ## From Pixels to material properties: machine learning in solar cell research
+### Introduction:
+The rapid development of solar cell technologies necessitates the exploration of new materials, a process that involves a multitude of variables and extensive experimental efforts. This project aims to streamline this process by contributing to “self-driving lab” (SDL) designed to study solar cell materials. The SDL integrates automation with advanced AI techniques to fabricate and analyze new samples efficiently. Central to this SDL is the application of machine learning (ML) methods to identify and characterize phase boundaries within images of material samples. These samples, simulated for the purposes of this project, consist of circular substrates where two chemical elements, such as tin (Sn) and barium (Ba), are deposited in smooth gradients from opposite sides. Additionally, a third element, sulfur (S), is uniformly incorporated, leading to the formation of various phases (chemical compounds) depending on experimental conditions. The main challenge lies in accurately identifying the distribution of these phases by analyzing images of the samples.
+
+Phases with distinct optical properties are detectable through reflected and transmitted light images, and their boundaries are defined by specific compositions. This project leverages ML to detect these phase boundaries swiftly and accurately, facilitating a comprehensive understanding of the material’s phase diagram. By utilizing simulated images with known phase boundary positions, the project aims to train ML models capable of extracting relevant information and efficiently constructing phase diagrams. These advancements will significantly enhance the ability to explore and optimize new materials for solar cells, reducing the need for labor-intensive experimental procedures and accelerating the development of more efficient solar technologies.
+### Results:
+1. The test accuracy of the Multinomial Logistic Regression model ranges from 80% to 81%.
+2. The results using CNNs were significantly better compared to the simple model. Specifically, the test accuracy improved to 91.97%.
+3. The U-Net modeling results achieved a high test accuracy of 97.13%.
+   
 ### Contributed by Aiman
 ### Contributed by Ruizchen
 ### Contributed by Khang
