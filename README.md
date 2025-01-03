@@ -12,6 +12,19 @@ Phases with distinct optical properties are detectable through reflected and tra
 ### Contributed by Aiman
 ### Contributed by Ruizchen
 ### Contributed by Khang
+#### Data Preprocessing Steps
+1. I do not have much experience with data pipelines, so I did not implement the code for this part. However, I participated in group meetings and contributed ideas to this section.
+2. Yagna Karthik initially worked on the Logistic Regression model (a simple model). I later joined him, and together we achieved a test accuracy of 82%.
+#### Image Preprocessing Steps
+I proposed the idea for a function to plot true and predicted boundaries and implemented it.
+### CNNs model
+I worked on this model independently and compared my results with the U-Net model implemented by Ruizhen and Yagna Karthik. In summary:
+1. I transformed the tabular data, using the three columns Sn, Ba, and F, into image data.
+2. I used CNNs with 9 channels: 3 channels from the transformed tabular data, 3 channels from transmitted image data, and 3 channels from reflected image data. In this step, I used the enhanced image function implemented by Yagna Karthik. Aside from the enhanced image function, I implemented all other parts myself.
+3. I calculated the test accuracy for the CNNs model and plotted the predicted phase boundaries.
+4. The code can be found at: [GitHub Repository](https://github.com/Karthik1000/Project_in_Data_Science/blob/Final_code_submission/ProjectDS_Khang_CNNs.ipynb) with my comments and explanations.
+### Final report
+I contributed to writing the final report, including the initial drafts of Parts 1, 2, 3, and 4 (excluding the U-Net model), and Part 5 (excluding the U-Net model results). After reviews by Yagna Karthik, Ruizhen, and two advisors, I continued refining and modifying the final report.
 ### Contributed by Yagna Karthik Vaka
 #### Data Preprocessing Steps
 1. I have contributed to these data-preprocessing steps and started initially. Khang has made a few modifications to these by changing the target columns and reduced to 1 instead of 3 columns.
