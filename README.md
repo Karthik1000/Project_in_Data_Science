@@ -10,16 +10,6 @@ Phases with distinct optical properties are detectable through reflected and tra
 3. The U-Net modeling results achieved a high test accuracy of 97.13%.
    
 ### Contributed by Aiman
-#### Meetings and Division of Work
-1. I attended most of the meetings with supervisors in person and wrote down meeting notes which I later shared with the group. Also after talking with supervisors we were able to divide work properly among the group which was fairly efficient for us as a group.
-#### Data Preprocessing Steps
-1. In the data preprocessing phase my task was to convert csv image data into actual images which can be then used as input in the CNN Model.
-#### CNN Model
-1. I tried to work on the CNN model separately but I did not achieve the same results as Khang hence it was not included in the final code submission.
-2. I tried to adjust some hyper parameters in Khangs code in hopes of achieving better a predictions but I also failed to achieve this on my own.
-#### Final Report and Presentation
-1. I helped proofread and edit some key points from the main report such as describing the goal of the project and the baseline model.
-2. In the final presentation slides I made the slides about data preprocessing and CNN models. Khang helped modify the CNN models.
 ### Contributed by Ruizhen Chen
 #### Data Preprocessing Steps
 1. In the data preprocessing phase, I established a data pipeline to clean the data and split the dataset. Finally, I experimented with three models as baseline models: Logistic Regression, Decision Tree, and K-Nearest Neighbors. Among them, the accuracy of Logistic Regression was 80.7%, which is lower than the results achieved by Yagna Karthik and Khang.
